@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const NavbarTop = () => {
   return (
@@ -11,10 +12,9 @@ const NavbarTop = () => {
                 <img alt="contact svg" src='images/contact.svg' className='h-4 m-1 text-white fill-current'/>
             </div>
             <div className='text-right basis-1/2 mr-10 text-white'>
-                Register
+               <Link to="/signup">Register</Link> 
             </div>
         </div>
-        
     </div>
   )
 }

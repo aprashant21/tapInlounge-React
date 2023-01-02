@@ -4,9 +4,8 @@ const Home = () => {
     return (
         <>
             {/* caraousel(image slide) */}
-
-            
-<div id="indicators-carousel" class="relative" data-carousel="static">
+      
+<div id="indicators-carousel" class="relative" data-carousel="dynamic">
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
         <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
             <img src="images/slide-1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
